@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Composite Launch Configuration Core PlugIn
+Bundle-SymbolicName: org.kholupko.xoredtest.core;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: akholupko
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.debug.core,
+ org.eclipse.ui,
+ org.eclipse.debug.ui
+Bundle-ActivationPolicy: lazy
+Export-Package: org.kholupko.xoredtest.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+
+
